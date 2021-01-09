@@ -1,0 +1,107 @@
+body {
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.background {
+    position: absolute;
+}
+
+.topImg {
+    top: -500px;
+    left: -400px;
+}
+
+.botImg {
+    bottom: -550px;
+    right: -450px;
+    z-index: -1;
+}
+
+.flex-container {
+    box-shadow: 0px 1px 30px 0px rgb(34, 33, 33);
+    position: relative;
+    margin: 9% auto;
+    width: 26%;
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pattern {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.victor {
+    z-index: 3;
+    margin-bottom: 6rem;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    color: hsl(229, 23%, 23%);
+}
+
+.faint-text {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bio {
+    position: absolute;
+    top: 14rem;
+}
+
+.followers {
+    position: absolute;
+    text-align: center;
+    top: 20.7rem;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 0.2;
+}
+
+.followNum {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.likes {
+    position: absolute;
+    text-align: center;
+    top: 20.7rem;
+    left: 0;
+    right: 0;
+    font-size: 0.8rem;
+    line-height: 0.2;
+}
+
+.photos {
+    position: absolute;
+    text-align: center;
+    top: 20.7rem;
+    right: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 0.2;
+}
+
+.stats span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    font-size: 0.7rem; 
+}
+
